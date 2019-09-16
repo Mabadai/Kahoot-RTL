@@ -5,6 +5,6 @@ Right-to-left correction based on Kahoot example.
 - Move all the files into the folder named "Kahoot-RTL"
 - Insert UTL: chrome://extensions into your chrome browser
 - Tick the "developer mode" in the corner of the window
-- Add the plug - in
+- Click the "upload an extension"
 - Navigate to the "Kahoot-RTL" folder, save the process
 - Run Kahoot and tick the plugin icon to apply the script
