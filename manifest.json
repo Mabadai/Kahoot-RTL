@@ -6,7 +6,8 @@
 
     "background": {
         "persistent": false,
-        "css": ["newstyle.css"]
+        "css": ["newstyle.css"],
+        "scripts": ["rtl.js"]
     },
     "browser_action": {
         "default_icon": "iconon.png",
