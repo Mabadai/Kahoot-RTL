@@ -1,0 +1,11 @@
+body {
+    direction: rtl !important;
+    text-align: -webkit-right !important;
+    text-align: right !important;
+}
+
+span {
+    direction: rtl !important;
+    text-align: -webkit-right !important;
+    text-align: right !important;
+}

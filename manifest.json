@@ -6,6 +6,7 @@
 
     "background": {
         "persistent": false,
+        "css": ["newstyle.css"],
         "scripts": ["rtl.js"]
     },
     "browser_action": {
