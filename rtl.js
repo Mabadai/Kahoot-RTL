@@ -8,6 +8,6 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     console.log('Turning ' + tab.url + ' red!');
     chrome.tabs.executeScript({
         code:
-            ''
+            '  if ("' + tab.url + '".includes("kahoot.it")) {var all = document.getElementsByTagName("span");for(var i = 0; i<all.length; i++) {all[i].style.direction = "rtl"; all[i].style.textAlign = "-webkit-right";} document.getElementsByTagName("BODY")[0].style.textAlign = "-webkit-right"; document.getElementsByTagName("BODY")[0].style.direction = "rtl"; }; '
     });
 });
